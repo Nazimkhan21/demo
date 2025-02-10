@@ -1,0 +1,12 @@
+name: CICD for My Application
+
+on:
+  workflows_dispatch:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    -  name: print Hello world
+      run: echo "Hello, world:"

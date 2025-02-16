@@ -1,0 +1,24 @@
+name: Nazim-Job for Display Messages
+
+on:
+  push:
+    paths:
+      - 'nazi,.txt'
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Welcome Message
+        run: echo "WELCOME TO MY FIRST JOB"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Welcome Message
+        run: echo "GOOD MORNING FRIENDS"
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Welcome Message
+        run: echo "GOOD MORNING SIR"
+        

@@ -10,11 +10,4 @@ jobs:
     steps:
     - name: print Hello world
       run: echo "Hello, world"
-
-jobs1:
-   say-Hi:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: print Hello world
-      run: echo "Hello, world"
+      

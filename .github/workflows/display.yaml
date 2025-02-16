@@ -3,7 +3,7 @@ name: Nazim-Job for Display Messages
 on:
   push:
     paths:
-      - 'nazi,.txt'
+      - 'nazim.txt'
 
 jobs:
   job1:
